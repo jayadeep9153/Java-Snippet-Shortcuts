@@ -1,7 +1,8 @@
 {
-  "name": "java-snippets",
-  "displayName": "boilercode-snippets",
-  "description": "",
+  "name": "java-snippet-shortcuts",
+  "displayName": "Java Snippet Shortcuts",
+  "publisher": "JavaSnippetShortcuts",
+  "description": "A Java snippet collection for VS Code, featuring boilerplate code, input handling, loops, and print statements to speed up development.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.105.0"
@@ -18,5 +19,9 @@
       { "language": "java", "path": "./snippets/dataTypeInputs.json"},
       { "language": "java", "path": "./snippets/conditionalStatements.json"}
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayadeep9153/Java-Snippet-Shortcuts"
   }
 }
