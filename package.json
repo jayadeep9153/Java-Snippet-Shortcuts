@@ -2,8 +2,9 @@
   "name": "java-snippet-shortcuts",
   "displayName": "Java Snippet Shortcuts",
   "publisher": "JavaSnippetShortcuts",
-  "description": "A Java snippet collection for VS Code, featuring boilerplate code, input handling, loops, and print statements to speed up development.",
+  "description": "A Java snippet collection for VS Code, featuring boilerplate code, input handling, loops, and print statements to speed up  development.",
   "version": "0.0.1",
+  "icon": "assets/java.png",
   "engines": {
     "vscode": "^1.105.0"
   },
