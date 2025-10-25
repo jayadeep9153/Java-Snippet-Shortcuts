@@ -1,0 +1,33 @@
+{
+    "Java Println Statement": {
+        "prefix": "println",
+        "body": [
+            "System.out.println(${0});"
+        ],
+        "description": "Prints output with newline using System.out.println"
+    },
+
+    "Java Println Statement with Quotes": {
+        "prefix": "printlnq",
+        "body": [
+            "System.out.println(\"${0}\");"
+        ],
+        "description": "Prints output with newline using System.out.println with quotes"
+    },
+
+    "Java Print Statement": {
+        "prefix": "print",
+        "body": [
+            "System.out.print(${0});"
+        ],
+        "description": "Prints output with newline using System.out.print"
+    },
+
+    "Java Print Statement with Quotes": {
+        "prefix": "printq",
+        "body": [
+            "System.out.print(\"${0}\");"
+        ],
+        "description": "Prints output with newline using System.out.print with quotes"
+    }
+}

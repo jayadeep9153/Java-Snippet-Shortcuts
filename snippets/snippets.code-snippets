@@ -1,0 +1,127 @@
+{
+    "Java File Boilerplate" : {
+        "prefix": "javaboiler",
+        "body": [
+            "import java.util.*;",
+            "",
+            "public class ${TM_FILENAME_BASE} {",
+            "",
+            "    public static void main(String[] args) {",
+            "        ${0}",
+            "    }",
+            "}"
+        ],
+        "description": "Java snippet with main method"
+    },
+
+    "Java File Scanner" : {
+        "prefix": "javascanner",
+        "body": [
+            "import java.util.*;",
+            "",
+            "public class ${TM_FILENAME_BASE} {",
+            "",
+            "    public static void main(String[] args) {",
+            "        Scanner sc = new Scanner(System.in);",
+            "        ${0}",
+            "    }",
+            "}"
+        ],
+        "description": "Java snippet with scanner"
+    },
+
+    
+    "Java File Input" : {
+        "prefix": "javainput",
+        "body": [
+            "import java.util.*;",
+            "",
+            "public class ${TM_FILENAME_BASE} {",
+            "",
+            "    public static void main(String[] args) {",
+            "        Scanner sc = new Scanner(System.in);",
+            "        int n = sc.nextInt();",
+            "        ${0}",
+            "    }",
+            "}"
+        ],
+        "description": "Java snippet with input"
+    },
+
+    
+    "Java Body Array Input" : {
+        "prefix": "javainputarr",
+        "body": [
+            "import java.util.*;",
+            "",
+            "public class ${TM_FILENAME_BASE} {",
+            "",
+            "    public static void main(String[] args) {",
+            "        Scanner sc = new Scanner(System.in);",
+            "        int n = sc.nextInt();",
+            "        int[] arr = new int[n];",
+            "        for(int i = 0; i < n; i++){",
+            "           arr[i] = sc.nextInt();",
+            "        }",
+            "        ${0}",
+            "    }",
+            "}"
+        ],
+        "description": "Java snippet with an array of size n"
+    },
+
+    "Java Array Input with Target" : {
+        "prefix": "java-arr-input",
+        "body": [
+            "import java.util.*;",
+            "",
+            "public class ${TM_FILENAME_BASE} {",
+            "",
+            "    public static void main(String[] args) {",
+            "        Scanner sc = new Scanner(System.in);",
+            "        int n = sc.nextInt();",
+            "        int[] arr = new int[n];",
+            "        for(int i = 0; i < n; i++){",
+            "           arr[i] = sc.nextInt();",
+            "        }",
+            "        int target = sc.nextInt();",
+            "        ${0}",
+            "    }",
+            "}"
+        ],
+        "description": "Java snippet with an array of size n and a variable target"
+    },
+
+    "Java Matrix Input": {
+        "prefix": "javainputmatrix",
+        "body": [
+            "import java.util.*;",
+            "",
+            "public class ${TM_FILENAME_BASE} {",
+            "    public static void main(String[] args) {",
+            "        Scanner sc = new Scanner(System.in);",
+            "        int rows = sc.nextInt();",
+            "        int cols = sc.nextInt();",
+            "        int[][] matrix = new int[rows][cols];",
+            "        for(int i = 0; i < rows; i++){",
+            "            for(int j = 0; j < cols; j++){",
+            "                matrix[i][j] = sc.nextInt();",
+            "            }",
+            "        }",
+            "        ${0}",
+            "    }",
+            "}"
+        ],
+        "description": "Java snippet for taking 2D array input"
+    },
+
+    "Java Array Input": {
+        "prefix": "arrin",
+        "body": [
+            "for(${1:int} ${2:i} = ${3:0}; ${2:i} < ${4:n}; ${2:i}++) {",
+            "    arr[i] = sc.nextInt();",
+            "}"
+        ],
+        "description": "Java array input"
+    }
+}

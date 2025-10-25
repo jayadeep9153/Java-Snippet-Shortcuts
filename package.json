@@ -1,0 +1,22 @@
+{
+  "name": "java-snippets",
+  "displayName": "boilercode-snippets",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      { "language": "java", "path": "./snippets/snippets.code-snippets" },
+      { "language": "java", "path": "./snippets/methods.json"},
+      { "language": "java", "path": "./snippets/loops.json"},
+      { "language": "java", "path": "./snippets/printStatements.json"},
+      { "language": "java", "path": "./snippets/dataTypeInputs.json"},
+      { "language": "java", "path": "./snippets/conditionalStatements.json"}
+    ]
+  }
+}

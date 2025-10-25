@@ -1,0 +1,49 @@
+{
+    "Java Integer Input": {
+        "prefix": "intInput",
+        "body": [
+            "int ${1:num} = sc.nextInt();"
+        ],
+        "description": "Java snippet for integer input"
+    },
+
+    "Java Long Input": {
+        "prefix": "longInput",
+        "body": [
+            "long ${1:num} = sc.nextLong();"
+        ],
+        "description": "Java snippet for long input"
+    },
+
+    "Java Double Input": {
+        "prefix": "doubleInput",
+        "body": [
+            "double ${1:num} = sc.nextDouble();"
+        ],
+        "description": "Java snippet for double input"
+    },
+
+    "Java Float Input": {
+        "prefix": "floatInput",
+        "body": [
+            "float ${1:num} = sc.nextFloat();"
+        ],
+        "description": "Java snippet for float input"
+    },
+
+    "Java String Input": {
+        "prefix": "strInput",
+        "body": [
+            "String ${1:str} = sc.nextLine();"
+        ],
+        "description": "Java snippet for string input"
+    },
+
+    "Java Char Input": {
+        "prefix": "charInput",
+        "body": [
+            "char ${1:c} = sc.next().charAt(0);"
+        ],
+        "description": "Java snippet for character input"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "Java Void Method": {
+        "prefix": "voidmethod",
+        "body": [
+            "public static void ${1:methodName}(${2: parameters}){",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Java void method"
+    },
+
+    "Java Integer Method": {
+        "prefix": "intmethod",
+        "body": [
+            "public static int ${1:methodName}(${2: parameters}){",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Java integer-returning method"
+    },
+
+    "Java Double Method": {
+        "prefix": "doublemethod",
+        "body": [
+            "public static double ${1:methodName}(${2:parameters}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Java double-returning method"
+    },
+
+    "Java Boolean Method": {
+        "prefix": "booleanmethod",
+        "body": [
+            "public static boolean ${1:methodName}(${2:parameters}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Java boolean-returning method"
+    },
+
+    "Java String Method": {
+        "prefix": "stringmethod",
+        "body": [
+            "public static String ${1:methodName}(${2:parameters}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Java String-returning method"
+    },
+
+    "Java Character Method": {
+        "prefix": "charmethod",
+        "body": [
+            "public static char ${1:methodName}(${2:parameters}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Java char-returning method"
+    },
+
+    "Java Long Method": {
+        "prefix": "longmethod",
+        "body": [
+            "public static long ${1:methodName}(${2:parameters}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Java long-returning method"
+    }
+}

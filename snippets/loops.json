@@ -1,0 +1,41 @@
+{
+    "Java For Loop": {
+        "prefix": "for",
+        "body": [
+            "for(${1:int} ${2:i} = ${3:0}; ${2:i} < ${4:n}; ${2:i}++) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Standard Java for loop"
+    },
+
+    "Java Enhanced For Loop": {
+        "prefix": "forEach",
+        "body": [
+            "for(${1:Type} ${2:element} : ${3:collection}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Enhanced for-each loop"
+    },
+
+    "Java While Loop": {
+        "prefix": "while",
+        "body": [
+            "while (${1:condition}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Java while loop"
+    },
+
+    "Java Do-While Loop": {
+        "prefix": "doWhile",
+        "body": [
+            "do {",
+            "    ${0}",
+            "} while (${1:condition});"
+        ],
+        "description": "Java do-while loop"
+    }
+}
