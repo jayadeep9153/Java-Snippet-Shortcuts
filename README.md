@@ -91,5 +91,4 @@ Want to improve this extension? Follow these steps:
 Feel free to reach out for suggestions or queries:
 
 * **Creator** : Jayadeep Varma
-* **Email** : [securecybernetics@gmail.com](mailto:securecybernetics@gmail.com)
 * **GitHub** : [Jayadeep Varma](https://github.com/jayadeep9153)
