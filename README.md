@@ -73,7 +73,7 @@ System.out.println();
 
 ## ️ **Full List of Snippets**
 
-See the full list of snippets [here](https://github.com/jayadeep9153/Java-Snippet-Shortcuts/wiki/Full-list-of-Java-Snippet-Shortcuts)
+See the full list of snippets [here](./snippets_list.md)
 
 ---
 
