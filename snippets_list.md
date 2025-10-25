@@ -49,7 +49,7 @@
 ---
 
 
-## ⚖️ **Conditional and Switch Statements**
+##  **Conditional and Switch Statements**
 
 | **Snippet Prefix** | **Purpose** | **Generated Code** |
 |---------------------|-------------|--------------------|
